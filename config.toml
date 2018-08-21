@@ -3,7 +3,6 @@ languageCode = "en-us"
 title = "Handbell Choir - Notre Dame"
 theme = "music"
 googleAnalytics = "UA-100397831-1"
-publishDir = "docs"
 
 [params]
 

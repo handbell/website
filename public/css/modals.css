@@ -6,25 +6,41 @@
  * Start Bootstrap - Freelancer Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
+ */   
 
 body {
     overflow-x: hidden;
+}
+
+.vertical-alignment-helper {
+    display:table;
+    height: 100%;
+    width: 100%;
+    pointer-events:none;
+}
+.vertical-align-center {
+    /* To center vertically */
+    display: table-cell;
+    vertical-align: middle;
+    pointer-events:none;
 }
 
 .img-centered {
     margin: 0 auto;
 }
 
+.member-modal .modal-content {
+    width: 85%;
+    background-color: rgba(255,255,255,.9);
+    margin: 0 auto;
+}
+
+.member-modal .modal-content .modal-body .row{
+    width: 88%;
+}
+
 .portfolio-modal .modal-content {
-    padding: 100px 0;
-    min-height: 100%;
-    border: 0;
-    border-radius: 0;
-    text-align: center;
-    background-clip: border-box;
-    -webkit-box-shadow: none;
-    box-shadow: none;
+    position: left;
 }
 
 .portfolio-modal .modal-content h2 {
@@ -40,7 +56,7 @@ body {
     margin: 30px 0;
 }
 
-.portfolio-modal .close-modal {
+.member-modal .close-modal {
     position: absolute;
     top: 25px;
     right: 25px;
@@ -50,11 +66,11 @@ body {
     cursor: pointer;
 }
 
-.portfolio-modal .close-modal:hover {
+.member-modal .close-modal:hover {
     opacity: .3;
 }
 
-.portfolio-modal .close-modal .lr {
+.member-modal .close-modal .lr {
     z-index: 1051;
     width: 1px;
     height: 75px;
@@ -65,7 +81,7 @@ body {
     transform: rotate(45deg);
 }
 
-.portfolio-modal .close-modal .lr .rl {
+.member-modal .close-modal .lr .rl {
     z-index: 1052;
     width: 1px;
     height: 75px;
@@ -78,4 +94,35 @@ body {
 .portfolio-modal .modal-backdrop {
     display: none;
     opacity: 0;
+}
+
+.song-list-container {
+    max-width: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+ol.song-list {
+    padding-left: 0;
+    font-family: gentium basic;
+    font-size: 1em;
+    list-style-type: decimal;
+}
+
+
+.song {
+    display: block;
+    text-align: left;
+    color: #004DA3;
+    text-decoration: none;
+}
+
+a.song-link {
+    display: block;
+    text-align: left;
+    color: #004DA3;
+    text-decoration: none;
 }
