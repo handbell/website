@@ -1,0 +1,36 @@
+<section class="no-padding" id="videos">
+    <aside class="bg-dark">
+        <div class="container text-center">
+            <div class="call-to-action">
+                {{ with .Site.Params.videos.title }}<h2>{{ . }}</h2>{{ end }}
+            </div>
+        </div>
+    </aside>
+    <div class="container-fluid">
+        <div class="row no-gutter">
+            {{ range .Site.Data.videos }}
+                <div class="col-lg-3 col-sm-4 col-xs-6">
+                    <a href="https://www.youtube.com/watch?v={{ .video }}" class="portfolio-box portfolio-link" data-toggle="modal" style="outline:none;">
+                        <img src="img/videos/{{ .img }}" class="img-responsive" alt="">
+                        {{ if and .year .title }}
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    {{ with .year }}
+                                        <div class="project-category text-faded">
+                                            {{ . }}
+                                        </div>
+                                    {{ end }}
+                                    {{ with .title }}
+                                        <div class="project-name">
+                                            {{ . }}
+                                        </div>
+                                    {{ end }}
+                                </div>
+                            </div>
+                        {{ end }}
+                    </a>
+                </div>
+            {{ end }}
+        </div>
+    </div>
+</section>

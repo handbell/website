@@ -1,0 +1,109 @@
+baseurl = "https://mdf730.github.io/handbell/"
+languageCode = "en-us"
+title = "Handbell Choir - Notre Dame"
+theme = "music"
+googleAnalytics = "UA-100397831-1"
+publishDir = "docs"
+
+[params]
+
+	# metadata for search engines
+	name = "Notre Dame Handbell Choir"
+	description = "The Notre Dame Handbell Choirs are composed of twenty-two undergraduate and graduate students under the direction of Karen Schneider-Kirner."
+
+	# logo for browser tab
+	favicon = "favicon.ico"
+
+	# Navigation
+	[params.navigation]
+		brand = "Notre Dame Handbell Choir"
+
+		[params.navigation.links]
+			about     = "About"
+			members   = "Members"
+			music     = "Music"
+			videos	  = "Videos"
+			schedule  = "Schedule"
+			contact   = "Contact"
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "Ring Down His Thunder"
+		subtitle   = "<b>/ `han(d)- bel /</b> | <em>noun.</em> | An instrument used to express joy through ringing "
+		buttonText = '''<i class="fa fa-envelope" aria-hidden="true"></i> | Subscribe'''
+
+
+	# About section
+	[params.about]
+		headline    = "ABOUT THE CHOIR"
+		description = '''In 1988, the University of Notre Dame Campus Ministry departement first purchased a small set of Schulmerich bells.  Thirty years later, the choir has expanded to cover more than five full octaves, providing music ministry to the Basilica of the Sacred Heart, the South Bend community, and parishes around the United States.  
+		<br>
+		The ensemble consists of two choirs: the Coppers and the Bronze.  The Coppers are a new choir, founded in Fall 2017.  The group of 10 is primarily made up of beginner ringers who are expressing their love for music in a new way.  The Coppers rehearse one hour a week and  regularly play at dorm masses.
+		<br><br>
+		Directed by Karen Schneider-Kirner, the Bronze choir consist of 14 experienced ringers who regularly play at the 11:45 Basilica Masses.  In Fall 2017, they were invited to perform at the inauguration of the [Beijing Global Gateway in China](https://international.nd.edu/about/news/notre-dame-handbell-choirs-new-year-reflections-on-the-2017-china-tour/
+).  They are looking forward to future international tours!
+		<br><br>
+		Most recently, both choirs toured Buffalo, NY and Erie, PA in the Spring of 2018.''' 
+		#buttonText  = "Get started!"
+
+
+	# Member section
+	[params.members]
+		title = "2017 - 2018 MEMBERS"
+
+	[params.members.modal]
+		name = "Name"
+		office = "Office"
+		major = "Major"
+		year = "Year"
+		dorm = "Dorm"
+		choir = "Choir"
+
+	# Music section
+	[params.music]
+		title = "MUSIC"
+
+	[params.music.modal]
+		title = "Title"
+		year  = "Year"
+
+	# Video section
+	[params.videos]
+		title = "VIDEOS"
+
+	[params.videos.modal]
+		title = "Title"
+		year = "Year"
+		video = "Video"
+
+	# Schedule section
+	[params.schedule]
+		title = "Spring 2018 Schedule"
+
+	[params.schedule.modal]
+		title = "Title"
+		date = "Date"
+		time = "Time"
+		location = "Location"
+		choir = "Choir"
+
+    # Aside section
+	[params.aside]
+		headline = "Check out our monthly choir newsletter!"
+
+		[params.aside.button]
+			text = "Sign up!"
+			link = "https://docs.google.com/forms/d/e/1FAIpQLSdhbNqAnuKJswTTaHIMaBO3CdtbGNIbH6eYhWsb9SUb_6o4hQ/viewform"
+
+	# Contact section
+	[params.contact]
+		headline = "Let's Get In Touch!"
+		description = "Have questions?  Want to purchase a CD?  Just want to chat?"
+		phone = "574-631-9326" # Karen's phone number
+		email = "handbell@nd.edu"
+		# Facebook page link
+
+	# Footer
+	[params.footer]
+		year = 2018

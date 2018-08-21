@@ -1,0 +1,42 @@
+{{ "<!-- Video Modals -->" | safeHTML }}
+{{ range .Site.Data.videos }}
+<div class="video-modal modal fade" id="video{{ .modalID }}" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="vertical-alignment-helper">
+    <div class="modal-dialogue vertical-align-center" role="document">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        {{ with .title }}
+                            <h2><center>{{ . }}</h2></center>
+                        {{ end }}
+
+                        {{ if and .title .year }}
+                            <hr class="star-primary">
+                        {{ end }}
+
+                        <div class="video-container">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ .video }}?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        </div>
+
+                        {{ with .year }}
+                            <p><center><b>Year: </b>{{ . | markdownify }}</center></p>
+                        {{ end }}
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+</div>
+{{ end }}
