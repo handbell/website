@@ -8,7 +8,7 @@ googleAnalytics = "UA-100397831-1"
 
 	# metadata for search engines
 	name = "Notre Dame Handbell Choir"
-	description = "The Notre Dame Handbell Choirs are composed of twenty-two undergraduate and graduate students under the direction of Karen Schneider-Kirner."
+	description = "The Notre Dame Handbell Choirs are composed of eighteen undergraduate and graduate students under the direction of Karen Schneider-Kirner."
 
 	# logo for browser tab
 	favicon = "favicon.ico"
@@ -43,13 +43,13 @@ googleAnalytics = "UA-100397831-1"
 		Directed by Karen Schneider-Kirner, the Bronze choir consist of 14 experienced ringers who regularly play at the 11:45 Basilica Masses.  In Fall 2017, they were invited to perform at the inauguration of the [Beijing Global Gateway in China](https://international.nd.edu/about/news/notre-dame-handbell-choirs-new-year-reflections-on-the-2017-china-tour/
 ).  They are looking forward to future international tours!
 		<br><br>
-		Most recently, both choirs toured Buffalo, NY and Erie, PA in the Spring of 2018.''' 
+		Most recently, both choirs toured through the Midwest making stops in Chicago, southern Wisconsin, St. Paul, and Iowa in the Spring of 2019.''' 
 		#buttonText  = "Get started!"
 
 
 	# Member section
 	[params.members]
-		title = "2017 - 2018 MEMBERS"
+		title = "2019 - 2020 MEMBERS"
 
 	[params.members.modal]
 		name = "Name"
@@ -78,7 +78,7 @@ googleAnalytics = "UA-100397831-1"
 
 	# Schedule section
 	[params.schedule]
-		title = "Spring 2018 Schedule"
+		title = "Fall 2019 Schedule"
 
 	[params.schedule.modal]
 		title = "Title"
@@ -105,4 +105,4 @@ googleAnalytics = "UA-100397831-1"
 
 	# Footer
 	[params.footer]
-		year = 2018
+		year = 2019
